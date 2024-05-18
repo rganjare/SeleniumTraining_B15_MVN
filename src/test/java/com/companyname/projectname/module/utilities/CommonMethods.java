@@ -68,4 +68,9 @@ public class CommonMethods extends TestBase {
 		
 	}
 	
+	
+	public void testGitHub() {
+		System.out.println("test Git Hub");
+		
+	}
 }
