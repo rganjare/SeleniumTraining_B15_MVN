@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Regression Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">73,857</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.companyname.projectname.module.testcases.RegisterUser1</td><td><a href="#m0">registerUser1</a></td><td rowspan="1">1716011243537</td><td rowspan="1">13113</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.companyname.projectname.module.testcases.RegisterUser4</td><td><a href="#m1">CloseBrowser</a></td><td rowspan="1">1716011293697</td><td rowspan="1">-1716011293697</td></tr><tr class="skippedeven"><td><a href="#m2">getTestCaseName</a></td><td rowspan="1">1716011293687</td><td rowspan="1">2</td></tr><tr class="skippedeven"><td><a href="#m3">launchBrowser</a></td><td rowspan="1">1716011293695</td><td rowspan="1">-1716011293695</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.companyname.projectname.module.testcases.RegisterUser4</td><td><a href="#m4">registerUser4</a></td><td rowspan="1">1716011293696</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.companyname.projectname.module.testcases.RegisterUser</td><td><a href="#m5">registerUser</a></td><td rowspan="1">1716011229158</td><td rowspan="1">5835</td></tr><tr class="passedodd"><td rowspan="1">com.companyname.projectname.module.testcases.RegisterUser2</td><td><a href="#m6">registerUser2</a></td><td rowspan="1">1716011266464</td><td rowspan="1">7801</td></tr><tr class="passedeven"><td rowspan="1">com.companyname.projectname.module.testcases.RegisterUser3</td><td><a href="#m7">registerUser3</a></td><td rowspan="1">1716011284197</td><td rowspan="1">6080</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.companyname.projectname.module.testcases.RegisterUser1#registerUser1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=test@gmail.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&quot;Enter Account Information&quot;]&quot;}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc243d6b1bebe6373aeb571f50592315, findElement {using=xpath, value=//*[text()=&quot;Enter Account Information&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53190/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc243d6b1bebe6373aeb571f50592315
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.companyname.projectname.module.utilities.CommonMethods.isElementPresent(CommonMethods.java:37)
+	at com.companyname.projectname.module.utilities.CommonMethods.verifyText(CommonMethods.java:48)
+	at com.companyname.projectname.module.testcases.RegisterUser1.registerUser1(RegisterUser1.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.companyname.projectname.module.testcases.RegisterUser4#CloseBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.companyname.projectname.module.testcases.RegisterUser4#getTestCaseName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
+	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.companyname.projectname.module.testcases.RegisterUser4#launchBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.companyname.projectname.module.testcases.RegisterUser4#registerUser4</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=mrudula@gmail.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
+	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.companyname.projectname.module.testcases.RegisterUser#registerUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DDB_Day=15, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=BYMAT Automation, DDB_Month=June, Address=xyz, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1990, City=Pune, Mobile_No=78464647, Email_Address=training@bymatautomation.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.companyname.projectname.module.testcases.RegisterUser2#registerUser2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DDB_Day=15, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Akshay, DDB_Month=June, Address=xyz, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1990, City=Kolhapur, Mobile_No=78464647, SignUpPageTitle=Automation Exercise - Signup / Login, Email_Address=Akshay@test.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.companyname.projectname.module.testcases.RegisterUser3#registerUser3</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=shital@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
