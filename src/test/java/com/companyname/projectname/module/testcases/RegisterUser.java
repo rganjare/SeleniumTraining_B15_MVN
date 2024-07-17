@@ -20,7 +20,7 @@ public class RegisterUser extends TestBase {
 //	Assert.assertEquals(pagetitle, excel.getCellData("Test_Data", "PageTitle", 5));
 //	System.out.println("User Navigated to the homepage " + pagetitle);
 //	test.pass("User Navigated to the homepage " + pagetitle);
-	
+	CommonMethods.manageConsent();
 	CommonMethods.verifyPageTitle(ht.get("PageTitle"));
 	
 //	driver.findElement(By.xpath(OR.getProperty("signUp"))).click();

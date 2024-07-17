@@ -8,6 +8,19 @@ import com.companyname.projectname.module.testBase.TestBase;
 
 public class CommonMethods extends TestBase {
 	
+	public static void manageConsent(){	
+		try {
+			Thread.sleep(1500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.findElement(By.xpath("//*[@class = \"fc-button-label\"][text()=\"Consent\"]")).click();
+		//System.out.println("User Clicked on " +locatorKey);	
+		test.info("User Clicked on Consent");	
+	}
+	
+	
 	public static void verifyPageTitle(String expectedTitle) {	
 		String actualPagetitle = driver.getTitle();
 		Assert.assertEquals(actualPagetitle,expectedTitle);

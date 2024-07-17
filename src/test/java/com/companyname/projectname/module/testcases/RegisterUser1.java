@@ -13,8 +13,10 @@ import com.companyname.projectname.module.utilities.CommonMethods;
 public class RegisterUser1 extends TestBase {
 
 	@Test(dataProvider = "data_Collection")
-	public static void registerUser1(Hashtable<String, String> ht) { // Data Driven Framework
-
+	public static void registerUser1(Hashtable<String, String> ht) { 
+		// Data Driven Framework
+		CommonMethods.manageConsent();
+		
 		CommonMethods.verifyPageTitle(ht.get("PageTitle"));
 
 		CommonMethods.clickOnWebElement("signUp");

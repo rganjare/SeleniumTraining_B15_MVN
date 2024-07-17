@@ -11,7 +11,7 @@ public class RegisterUser3 extends TestBase {
 
 	@Test(dataProvider = "data_Collection")
 	public static void registerUser3(Hashtable<String, String> ht) { // Data Driven Framework
-
+		CommonMethods.manageConsent();
 		CommonMethods.verifyPageTitle(ht.get("PageTitle"));
 
 		CommonMethods.clickOnWebElement("signUp");

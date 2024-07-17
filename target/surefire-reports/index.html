@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Regression_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Regression Suite</span>
+              <span class="suite-name border-skipped">Regression Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,  1 skipped,  3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods failed suite-Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-Regression_Suite -->
-                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods failed suite-Regression_Suite"> (show)</a> <!-- show-methods failed suite-Regression_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Regression_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="com.companyname.projectname.module.testcases.RegisterUser1" class="method navigator-link" hash-for-method="registerUser1({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_...)">registerUser1({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Regression_Suite -->
+                    <span class="method-stats">5 methods,  2 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -118,7 +104,12 @@
                     <div class="method-list-content skipped suite-Regression_Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="com.companyname.projectname.module.testcases.RegisterUser4" class="method navigator-link" hash-for-method="registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...)">registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Regression_Suite" title="com.companyname.projectname.module.testcases.RegisterUser1" class="method navigator-link" hash-for-method="registerUser1({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_...)">registerUser1({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="com.companyname.projectname.module.testcases.RegisterUser3" class="method navigator-link" hash-for-method="registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...)">registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Regression_Suite -->
@@ -142,7 +133,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="com.companyname.projectname.module.testcases.RegisterUser3" class="method navigator-link" hash-for-method="registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...)">registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Regression_Suite" title="com.companyname.projectname.module.testcases.RegisterUser4" class="method navigator-link" hash-for-method="registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...)">registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Regression_Suite -->
@@ -157,9 +148,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
-          <div class="suite-Regression_Suite-class-failed">
+          <div class="suite-Regression_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
+              <span class="class-name">com.companyname.projectname.module.testcases.RegisterUser3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...)">
+                  </a> <!-- registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...) -->
+                  <span class="method-name">registerUser3</span>
+                  <span class="parameters">({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=shital@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-skipped -->
+          <div class="suite-Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">com.companyname.projectname.module.testcases.RegisterUser1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -169,48 +176,6 @@
                   </a> <!-- registerUser1({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_...) -->
                   <span class="method-name">registerUser1</span>
                   <span class="parameters">({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=test@gmail.com})</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&quot;Enter Account Information&quot;]&quot;}
-  (Session info: chrome=124.0.6367.209)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc243d6b1bebe6373aeb571f50592315, findElement {using=xpath, value=//*[text()=&quot;Enter Account Information&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53190/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cc243d6b1bebe6373aeb571f50592315
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at com.companyname.projectname.module.utilities.CommonMethods.isElementPresent(CommonMethods.java:37)
-	at com.companyname.projectname.module.utilities.CommonMethods.verifyText(CommonMethods.java:48)
-	at com.companyname.projectname.module.testcases.RegisterUser1.registerUser1(RegisterUser1.java:30)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Suite-class-failed -->
-          <div class="suite-Regression_Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.companyname.projectname.module.testcases.RegisterUser4</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...)">
-                  </a> <!-- registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...) -->
-                  <span class="method-name">registerUser4</span>
-                  <span class="parameters">({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=mrudula@gmail.com})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
 	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -223,15 +188,15 @@ Session ID: cc243d6b1bebe6373aeb571f50592315
           <div class="suite-Regression_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.companyname.projectname.module.testcases.RegisterUser3</span>
+              <span class="class-name">com.companyname.projectname.module.testcases.RegisterUser4</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...)">
-                  </a> <!-- registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...) -->
-                  <span class="method-name">registerUser3</span>
-                  <span class="parameters">({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=shital@gmail.com})</span>
+                  <a name="registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...)">
+                  </a> <!-- registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...) -->
+                  <span class="method-name">registerUser4</span>
+                  <span class="parameters">({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=mrudula@gmail.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -329,30 +294,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'registerUser1')
-data.setCell(0, 2, 'com.companyname.projectname.module.testcases.RegisterUser1')
-data.setCell(0, 3, 13113);
+data.setCell(0, 1, 'registerUser2')
+data.setCell(0, 2, 'com.companyname.projectname.module.testcases.RegisterUser2')
+data.setCell(0, 3, 8331);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registerUser2')
-data.setCell(1, 2, 'com.companyname.projectname.module.testcases.RegisterUser2')
-data.setCell(1, 3, 7801);
+data.setCell(1, 1, 'registerUser')
+data.setCell(1, 2, 'com.companyname.projectname.module.testcases.RegisterUser')
+data.setCell(1, 3, 8008);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'registerUser3')
-data.setCell(2, 2, 'com.companyname.projectname.module.testcases.RegisterUser3')
-data.setCell(2, 3, 6080);
+data.setCell(2, 1, 'registerUser4')
+data.setCell(2, 2, 'com.companyname.projectname.module.testcases.RegisterUser4')
+data.setCell(2, 3, 7263);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'registerUser')
-data.setCell(3, 2, 'com.companyname.projectname.module.testcases.RegisterUser')
-data.setCell(3, 3, 5835);
+data.setCell(3, 1, 'registerUser1')
+data.setCell(3, 2, 'com.companyname.projectname.module.testcases.RegisterUser1')
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'registerUser4')
-data.setCell(4, 2, 'com.companyname.projectname.module.testcases.RegisterUser4')
+data.setCell(4, 1, 'registerUser3')
+data.setCell(4, 2, 'com.companyname.projectname.module.testcases.RegisterUser3')
 data.setCell(4, 3, 0);
 window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Regression_Suite">
               </div> <!-- times-div-Regression_Suite -->
             </div> <!-- times-div -->
@@ -421,104 +386,114 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">getTestCaseName</span>
-                <span class="method-start">3013 ms</span>
+                <span class="method-start">1502 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">3116 ms</span>
+                <span class="method-start">1533 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerUser({DDB_Day=15, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=BYMAT Automa...)</span>
-                <span class="method-start">12288 ms</span>
+                <span class="method-start">6405 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">18135 ms</span>
+                <span class="method-start">14426 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser1</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">getTestCaseName</span>
-                <span class="method-start">21787 ms</span>
+                <span class="method-start">17894 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">launchBrowser</span>
-                <span class="method-start">21801 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">registerUser1({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_...)</span>
-                <span class="method-start">26667 ms</span>
+                <span class="method-start">17900 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">40504 ms</span>
+                <span class="method-start">17900 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">getTestCaseName</span>
-                <span class="method-start">44063 ms</span>
+                <span class="method-start">17900 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">44072 ms</span>
+                <span class="method-start">17900 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">17916 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerUser2({DDB_Day=15, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Akshay, DDB_...)</span>
-                <span class="method-start">49594 ms</span>
+                <span class="method-start">21362 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">57397 ms</span>
+                <span class="method-start">29693 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser3</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">getTestCaseName</span>
-                <span class="method-start">60949 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">60963 ms</span>
+                <span class="method-start">33086 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...)</span>
-                <span class="method-start">67327 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">CloseBrowser</span>
-                <span class="method-start">73409 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-class before">
+                <span class="method-name">getTestCaseName</span>
+                <span class="method-start">33086 ms</span>
+              </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser4</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">getTestCaseName</span>
-                <span class="method-start">76817 ms</span>
+                <span class="method-start">33086 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser3</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">33086 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registerUser3({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_...)</span>
+                <span class="method-start">33086 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser4</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">76825 ms</span>
+                <span class="method-start">33103 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerUser4({DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB...)</span>
-                <span class="method-start">76826 ms</span>
+                <span class="method-start">36656 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">76827 ms</span>
+                <span class="method-start">43919 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companyname.projectname.module.testcases.RegisterUser</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">CloseReporter</span>
-                <span class="method-start">76964 ms</span>
+                <span class="method-start">47458 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

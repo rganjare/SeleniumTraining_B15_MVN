@@ -6,19 +6,19 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="com.companyname.projectname.module.testcases.RegisterUser4">
+      <class name="com.companyname.projectname.module.testcases.RegisterUser3">
         <methods>
-          <include name="registerUser4"/>
+          <include name="registerUser3"/>
           <include name="launchBrowser"/>
           <include name="init"/>
           <include name="CloseReporter"/>
           <include name="CloseBrowser"/>
           <include name="getTestCaseName"/>
         </methods>
-      </class> <!-- com.companyname.projectname.module.testcases.RegisterUser4 -->
+      </class> <!-- com.companyname.projectname.module.testcases.RegisterUser3 -->
       <class name="com.companyname.projectname.module.testcases.RegisterUser1">
         <methods>
-          <include name="registerUser1" invocation-numbers="0"/>
+          <include name="registerUser1"/>
           <include name="launchBrowser"/>
           <include name="init"/>
           <include name="CloseReporter"/>

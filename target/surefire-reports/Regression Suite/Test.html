@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 18 06:46:59 BST 2024</td>
+<td>Started on:</td><td>Thu Jul 18 00:21:03 BST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>73 seconds (73857 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45827 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,12 +75,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.companyname.projectname.module.testcases.RegisterUser4.getTestCaseName()'><b>getTestCaseName</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser4</td>
+<td title='com.companyname.projectname.module.testcases.RegisterUser3.launchBrowser()'><b>launchBrowser</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser3</td>
+<td></td>
+<td>-1721258495</td>
+<td>com.companyname.projectname.module.testcases.RegisterUser3@687e99d8</td></tr>
+<tr>
+<td title='com.companyname.projectname.module.testcases.RegisterUser1.CloseBrowser()'><b>CloseBrowser</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser1</td>
+<td></td>
+<td>-1721258480</td>
+<td>com.companyname.projectname.module.testcases.RegisterUser1@5c671d7f</td></tr>
+<tr>
+<td title='com.companyname.projectname.module.testcases.RegisterUser3.getTestCaseName()'><b>getTestCaseName</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser3</td>
 <td><div><pre>org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
 	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1829496747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1829496747'><pre>org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1746074170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1746074170'><pre>org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
 	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -113,92 +123,25 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 </pre></div></td>
 <td>0</td>
-<td>com.companyname.projectname.module.testcases.RegisterUser4@e4487af</td></tr>
+<td>com.companyname.projectname.module.testcases.RegisterUser3@687e99d8</td></tr>
 <tr>
-<td title='com.companyname.projectname.module.testcases.RegisterUser4.launchBrowser()'><b>launchBrowser</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser4</td>
-<td></td>
-<td>-1716011293</td>
-<td>com.companyname.projectname.module.testcases.RegisterUser4@e4487af</td></tr>
-<tr>
-<td title='com.companyname.projectname.module.testcases.RegisterUser4.CloseBrowser()'><b>CloseBrowser</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser4</td>
-<td></td>
-<td>-1716011293</td>
-<td>com.companyname.projectname.module.testcases.RegisterUser4@e4487af</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.companyname.projectname.module.testcases.RegisterUser1.registerUser1()'><b>registerUser1</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser1<br>Parameters: {DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=test@gmail.com}</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&quot;Enter Account Information&quot;]&quot;}
-  (Session info: chrome=124.0.6367.209)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc243d6b1bebe6373aeb571f50592315, findElement {using=xpath, value=//*[text()=&quot;Enter Account Information&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53190/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cc243d6b1bebe6373aeb571f50592315
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at com.companyname.projectname.module.utilities.CommonMethods.isElementPresent(CommonMethods.java:37)
-	at com.companyname.projectname.module.utilities.CommonMethods.verifyText(CommonMethods.java:48)
-	at com.companyname.projectname.module.testcases.RegisterUser1.registerUser1(RegisterUser1.java:30)
+<td title='com.companyname.projectname.module.testcases.RegisterUser1.getTestCaseName()'><b>getTestCaseName</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser1</td>
+<td><div><pre>org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
+	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1825984232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1825984232'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&quot;Enter Account Information&quot;]&quot;}
-  (Session info: chrome=124.0.6367.209)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc243d6b1bebe6373aeb571f50592315, findElement {using=xpath, value=//*[text()=&quot;Enter Account Information&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53190/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cc243d6b1bebe6373aeb571f50592315
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at com.companyname.projectname.module.utilities.CommonMethods.isElementPresent(CommonMethods.java:37)
-	at com.companyname.projectname.module.utilities.CommonMethods.verifyText(CommonMethods.java:48)
-	at com.companyname.projectname.module.testcases.RegisterUser1.registerUser1(RegisterUser1.java:30)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace723689932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace723689932'><pre>org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
+	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
@@ -219,8 +162,18 @@ Session ID: cc243d6b1bebe6373aeb571f50592315
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 </pre></div></td>
-<td>13</td>
+<td>0</td>
 <td>com.companyname.projectname.module.testcases.RegisterUser1@5c671d7f</td></tr>
+<tr>
+<td title='com.companyname.projectname.module.testcases.RegisterUser1.launchBrowser()'><b>launchBrowser</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser1</td>
+<td></td>
+<td>-1721258480</td>
+<td>com.companyname.projectname.module.testcases.RegisterUser1@5c671d7f</td></tr>
+<tr>
+<td title='com.companyname.projectname.module.testcases.RegisterUser3.CloseBrowser()'><b>CloseBrowser</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser3</td>
+<td></td>
+<td>-1721258495</td>
+<td>com.companyname.projectname.module.testcases.RegisterUser3@687e99d8</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -230,20 +183,20 @@ Session ID: cc243d6b1bebe6373aeb571f50592315
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.companyname.projectname.module.testcases.RegisterUser2.registerUser2()'><b>registerUser2</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser2<br>Parameters: {DDB_Day=15, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Akshay, DDB_Month=June, Address=xyz, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1990, City=Kolhapur, Mobile_No=78464647, SignUpPageTitle=Automation Exercise - Signup / Login, Email_Address=Akshay@test.com}</td>
-<td></td>
-<td>7</td>
-<td>com.companyname.projectname.module.testcases.RegisterUser2@757277dc</td></tr>
-<tr>
-<td title='com.companyname.projectname.module.testcases.RegisterUser3.registerUser3()'><b>registerUser3</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser3<br>Parameters: {DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=shital@gmail.com}</td>
-<td></td>
-<td>6</td>
-<td>com.companyname.projectname.module.testcases.RegisterUser3@687e99d8</td></tr>
-<tr>
 <td title='com.companyname.projectname.module.testcases.RegisterUser.registerUser()'><b>registerUser</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser<br>Parameters: {DDB_Day=15, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=BYMAT Automation, DDB_Month=June, Address=xyz, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1990, City=Pune, Mobile_No=78464647, Email_Address=training@bymatautomation.com}</td>
 <td></td>
-<td>5</td>
+<td>8</td>
 <td>com.companyname.projectname.module.testcases.RegisterUser@1e178745</td></tr>
+<tr>
+<td title='com.companyname.projectname.module.testcases.RegisterUser4.registerUser4()'><b>registerUser4</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser4<br>Parameters: {DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=mrudula@gmail.com}</td>
+<td></td>
+<td>7</td>
+<td>com.companyname.projectname.module.testcases.RegisterUser4@e4487af</td></tr>
+<tr>
+<td title='com.companyname.projectname.module.testcases.RegisterUser2.registerUser2()'><b>registerUser2</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser2<br>Parameters: {DDB_Day=15, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Akshay, DDB_Month=June, Address=xyz, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1990, City=Kolhapur, Mobile_No=78464647, SignUpPageTitle=Automation Exercise - Signup / Login, Email_Address=Akshay@test.com}</td>
+<td></td>
+<td>8</td>
+<td>com.companyname.projectname.module.testcases.RegisterUser2@757277dc</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -253,12 +206,12 @@ Session ID: cc243d6b1bebe6373aeb571f50592315
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.companyname.projectname.module.testcases.RegisterUser4.registerUser4()'><b>registerUser4</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser4<br>Parameters: {DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=mrudula@gmail.com}</td>
+<td title='com.companyname.projectname.module.testcases.RegisterUser1.registerUser1()'><b>registerUser1</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser1<br>Parameters: {DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shivam, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=test@gmail.com}</td>
 <td><div><pre>org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
 	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace844264574", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace844264574'><pre>org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace959897458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace959897458'><pre>org.testng.SkipException: Skipping the Test case as it&apos;s Run mode is set to No
 	at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -291,7 +244,12 @@ Session ID: cc243d6b1bebe6373aeb571f50592315
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 </pre></div></td>
 <td>0</td>
-<td>com.companyname.projectname.module.testcases.RegisterUser4@e4487af</td></tr>
+<td>com.companyname.projectname.module.testcases.RegisterUser1@5c671d7f</td></tr>
+<tr>
+<td title='com.companyname.projectname.module.testcases.RegisterUser3.registerUser3()'><b>registerUser3</b><br>Test class: com.companyname.projectname.module.testcases.RegisterUser3<br>Parameters: {DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Shital, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=shital@gmail.com}</td>
+<td></td>
+<td>0</td>
+<td>com.companyname.projectname.module.testcases.RegisterUser3@687e99d8</td></tr>
 </table><p>
 </body>
 </html>
