@@ -6,25 +6,21 @@ public abstract class RBI_Bank {
 	
 	public static double defaultRateOfInterest = 6.5;
 	
-	
 	public abstract double homeLoanRateOfInterest();
 	
-	
 	public double getPernolLoanRateOfInterest(){  // Non Static Method
-		
 		System.out.println("I am in the RBI_Bank");
-		
 		return 6.6;
-		
-	}
+		}
 	
 	public static double getCarLoanRateOfInterest(){  // Static Method
-		
 		System.out.println("I am in the RBI_Bank");
-		
 		return 9.6;
-		
-	}
+		}
+	
+	public void makePayment(long FromUPI, long ToUPI ) {
+		System.out.println("Code to make payment");
+		}
 	
 
 }

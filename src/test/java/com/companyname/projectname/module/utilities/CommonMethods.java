@@ -20,7 +20,6 @@ public class CommonMethods extends TestBase {
 		test.info("User Clicked on Consent");	
 	}
 	
-	
 	public static void verifyPageTitle(String expectedTitle) {	
 		String actualPagetitle = driver.getTitle();
 		Assert.assertEquals(actualPagetitle,expectedTitle);
@@ -78,9 +77,7 @@ public class CommonMethods extends TestBase {
 		sel.selectByVisibleText(value);
 		System.out.println("User selected value as: "+value);
 		test.info("User selected value as: "+value);
-		
 	}
-	
 	
 	public void testGitHub() {
 		System.out.println("test Git Hub");

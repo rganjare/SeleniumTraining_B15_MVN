@@ -1,7 +1,7 @@
 package interfaceTest;
 
 public interface WebDriverTest {  // Signature of the methods 
-
+	
 	public void getTitle();
 	
 	public void getURL();

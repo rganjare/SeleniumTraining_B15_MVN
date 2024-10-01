@@ -6,7 +6,9 @@ public class TestEncapClass {
 
 		ICICI_Bank ib = new ICICI_Bank();
 		
-		ib.setAccountBalance(25000);
+		//long i = 3423345325345453454l;
+		
+		ib.setAccountBalance(3423345325345453454l);
 		
 		System.out.println(ib.getAccountBalance());
 

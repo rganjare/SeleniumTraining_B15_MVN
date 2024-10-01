@@ -11,5 +11,10 @@ public class ICICI_Bank extends RBI_Bank {
 	}
 
 
+	/*
+	 * public void makePayment() {
+	 * 
+	 * makePayment(123456786, 9860123456l); }
+	 */
 
 }

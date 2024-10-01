@@ -12,6 +12,8 @@ public class TestAnstraction {
 		System.out.println(RBI_Bank.defaultRateOfInterest);
 		System.out.println(RBI_Bank.getCarLoanRateOfInterest() );
 		
+		new ICICI_Bank().makePayment(0, 0);
+		
 	}
 
 }

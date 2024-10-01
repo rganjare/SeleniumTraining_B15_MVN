@@ -20,5 +20,4 @@ public class RegisterUser2 extends TestBase {
 		.enterAccountCreationInformation(ht); 
 
 	}
-
 }

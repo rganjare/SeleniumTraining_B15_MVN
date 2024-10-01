@@ -21,7 +21,7 @@ public class ICICI_Bank {
 		accountBalance = accountBalance + 1243567.44;
 		return accountBalance;
 	}
-	public void setAccountBalance(double accountBalance) {
+	public void setAccountBalance(long accountBalance) {
 		this.accountBalance = accountBalance;
 	}
 	

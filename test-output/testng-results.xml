@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="13" passed="3" failed="1" skipped="1">
+<testng-results ignored="8" total="13" passed="1" failed="1" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-18T00:15:38 BST" name="Regression Suite" finished-at="2024-07-18T00:16:43 BST" duration-ms="64631">
+  <suite started-at="2024-07-18T17:39:56 BST" name="Regression Suite" finished-at="2024-07-18T17:41:06 BST" duration-ms="70323">
     <groups>
     </groups>
-    <test started-at="2024-07-18T00:15:38 BST" name="Test" finished-at="2024-07-18T00:16:43 BST" duration-ms="64631">
+    <test started-at="2024-07-18T17:39:56 BST" name="Test" finished-at="2024-07-18T17:41:06 BST" duration-ms="70323">
       <class name="com.companyname.projectname.module.testcases.RegisterUser">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@6404f418]" started-at="2024-07-18T00:15:37 BST" name="init" finished-at="2024-07-18T00:15:38 BST" duration-ms="1436" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@51e69659]" started-at="2024-07-18T17:39:53 BST" name="init" finished-at="2024-07-18T17:39:56 BST" duration-ms="2779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@6404f418]" started-at="2024-07-18T00:15:38 BST" name="getTestCaseName" finished-at="2024-07-18T00:15:38 BST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@51e69659]" started-at="2024-07-18T17:39:56 BST" name="getTestCaseName" finished-at="2024-07-18T17:39:56 BST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCaseName -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@6404f418]" started-at="2024-07-18T00:15:38 BST" name="launchBrowser" finished-at="2024-07-18T00:15:45 BST" duration-ms="6479" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@51e69659]" started-at="2024-07-18T17:39:56 BST" name="launchBrowser" finished-at="2024-07-18T17:40:08 BST" duration-ms="11809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="registerUser(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@6404f418]" started-at="2024-07-18T00:15:45 BST" name="registerUser" data-provider="data_Collection" finished-at="2024-07-18T00:15:50 BST" duration-ms="4952" status="PASS">
+        <test-method signature="registerUser(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@51e69659]" started-at="2024-07-18T17:40:08 BST" name="registerUser" data-provider="data_Collection" finished-at="2024-07-18T17:40:24 BST" duration-ms="15992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,32 +30,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@6404f418]" started-at="2024-07-18T00:15:50 BST" name="CloseBrowser" finished-at="2024-07-18T00:15:53 BST" duration-ms="3617" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@51e69659]" started-at="2024-07-18T17:40:24 BST" name="CloseBrowser" finished-at="2024-07-18T17:40:30 BST" duration-ms="5880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="CloseReporter()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@6404f418]" started-at="2024-07-18T00:16:43 BST" name="CloseReporter" finished-at="2024-07-18T00:16:44 BST" duration-ms="1116" status="PASS">
+        <test-method is-config="true" signature="CloseReporter()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser@51e69659]" started-at="2024-07-18T17:41:07 BST" name="CloseReporter" finished-at="2024-07-18T17:41:08 BST" duration-ms="1659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseReporter -->
       </class> <!-- com.companyname.projectname.module.testcases.RegisterUser -->
       <class name="com.companyname.projectname.module.testcases.RegisterUser4">
-        <test-method signature="registerUser4(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser4@36916eb0]" started-at="2024-07-18T00:16:43 BST" name="registerUser4" data-provider="data_Collection" finished-at="2024-07-18T00:16:43 BST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=mrudula@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUser4 -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser4@36916eb0]" started-at="2024-07-18T00:16:43 BST" name="launchBrowser" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1721258203485" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser4@36916eb0]" started-at="2024-07-18T00:16:43 BST" name="getTestCaseName" finished-at="2024-07-18T00:16:43 BST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser4@2dc54ad4]" started-at="2024-07-18T17:41:06 BST" name="getTestCaseName" finished-at="2024-07-18T17:41:06 BST" duration-ms="1" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping the Test case as it's Run mode is set to No]]>
@@ -95,21 +80,36 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCaseName -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser4@36916eb0]" started-at="2024-07-18T00:16:43 BST" name="CloseBrowser" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1721258203501" status="SKIP">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser4@2dc54ad4]" started-at="2024-07-18T17:41:06 BST" name="launchBrowser" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1721320866959" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerUser4(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser4@2dc54ad4]" started-at="2024-07-18T17:41:06 BST" name="registerUser4" data-provider="data_Collection" finished-at="2024-07-18T17:41:06 BST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DDB_Day=20, SignupText=New User Signup!, EnterAcctInfo=ENTER ACCOUNT INFORMATION, Name=Mrudula, DDB_Month=March, Address=pqrst, PINCode=453674, PageTitle=Automation Exercise, DDB_Year=1995, City=Mumbai, Mobile_No=345435353, Email_Address=mrudula@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser4 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser4@2dc54ad4]" started-at="2024-07-18T17:41:06 BST" name="CloseBrowser" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1721320866983" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.companyname.projectname.module.testcases.RegisterUser4 -->
       <class name="com.companyname.projectname.module.testcases.RegisterUser1">
-        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser1@66f57048]" started-at="2024-07-18T00:15:53 BST" name="getTestCaseName" finished-at="2024-07-18T00:15:53 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser1@27f981c6]" started-at="2024-07-18T17:40:30 BST" name="getTestCaseName" finished-at="2024-07-18T17:40:30 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCaseName -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser1@66f57048]" started-at="2024-07-18T00:15:54 BST" name="launchBrowser" finished-at="2024-07-18T00:15:58 BST" duration-ms="4637" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser1@27f981c6]" started-at="2024-07-18T17:40:30 BST" name="launchBrowser" finished-at="2024-07-18T17:40:38 BST" duration-ms="7664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="registerUser1(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser1@66f57048]" started-at="2024-07-18T00:15:58 BST" name="registerUser1" data-provider="data_Collection" finished-at="2024-07-18T00:16:13 BST" duration-ms="15168" status="FAIL">
+        <test-method signature="registerUser1(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser1@27f981c6]" started-at="2024-07-18T17:40:38 BST" name="registerUser1" data-provider="data_Collection" finished-at="2024-07-18T17:41:02 BST" duration-ms="24404" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -125,9 +125,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [192bf33675111088dbcb8484b62a2d35, findElement {using=xpath, value=//*[text()="Enter Account Information"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52800/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 192bf33675111088dbcb8484b62a2d35]]>
+Command: [7b55122d984df34c7794e71b394fb8b2, findElement {value=//*[text()="Enter Account Information"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61550/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b55122d984df34c7794e71b394fb8b2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()="Enter Account Information"]"}
@@ -136,9 +136,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [192bf33675111088dbcb8484b62a2d35, findElement {using=xpath, value=//*[text()="Enter Account Information"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52800}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52800/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 192bf33675111088dbcb8484b62a2d35
+Command: [7b55122d984df34c7794e71b394fb8b2, findElement {value=//*[text()="Enter Account Information"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61550/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b55122d984df34c7794e71b394fb8b2
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -155,8 +155,8 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at com.companyname.projectname.module.utilities.CommonMethods.isElementPresent(CommonMethods.java:44)
-at com.companyname.projectname.module.utilities.CommonMethods.verifyText(CommonMethods.java:55)
+at com.companyname.projectname.module.utilities.CommonMethods.isElementPresent(CommonMethods.java:50)
+at com.companyname.projectname.module.utilities.CommonMethods.verifyText(CommonMethods.java:61)
 at com.companyname.projectname.module.testcases.RegisterUser1.registerUser1(RegisterUser1.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -192,21 +192,57 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser1 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser1@66f57048]" started-at="2024-07-18T00:16:14 BST" name="CloseBrowser" finished-at="2024-07-18T00:16:17 BST" duration-ms="3518" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser1@27f981c6]" started-at="2024-07-18T17:41:02 BST" name="CloseBrowser" finished-at="2024-07-18T17:41:06 BST" duration-ms="3907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.companyname.projectname.module.testcases.RegisterUser1 -->
       <class name="com.companyname.projectname.module.testcases.RegisterUser3">
-        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser3@21282ed8]" started-at="2024-07-18T00:16:31 BST" name="getTestCaseName" finished-at="2024-07-18T00:16:31 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser3@1151e434]" started-at="2024-07-18T17:41:06 BST" name="getTestCaseName" finished-at="2024-07-18T17:41:06 BST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test case as it's Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test case as it's Run mode is set to No
+at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCaseName -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser3@21282ed8]" started-at="2024-07-18T00:16:31 BST" name="launchBrowser" finished-at="2024-07-18T00:16:35 BST" duration-ms="4171" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser3@1151e434]" started-at="2024-07-18T17:41:06 BST" name="launchBrowser" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1721320866933" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="registerUser3(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser3@21282ed8]" started-at="2024-07-18T00:16:35 BST" name="registerUser3" data-provider="data_Collection" finished-at="2024-07-18T00:16:40 BST" duration-ms="4870" status="PASS">
+        <test-method signature="registerUser3(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser3@1151e434]" started-at="2024-07-18T17:41:06 BST" name="registerUser3" data-provider="data_Collection" finished-at="2024-07-18T17:41:06 BST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -217,21 +253,57 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser3 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser3@21282ed8]" started-at="2024-07-18T00:16:40 BST" name="CloseBrowser" finished-at="2024-07-18T00:16:43 BST" duration-ms="3398" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser3@1151e434]" started-at="2024-07-18T17:41:06 BST" name="CloseBrowser" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1721320866943" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.companyname.projectname.module.testcases.RegisterUser3 -->
       <class name="com.companyname.projectname.module.testcases.RegisterUser2">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser2@550dbc7a]" started-at="2024-07-18T00:16:17 BST" name="launchBrowser" finished-at="2024-07-18T00:16:21 BST" duration-ms="3989" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser2@550dbc7a]" started-at="2024-07-18T00:16:17 BST" name="getTestCaseName" finished-at="2024-07-18T00:16:17 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser2@1b11171f]" started-at="2024-07-18T17:41:06 BST" name="getTestCaseName" finished-at="2024-07-18T17:41:06 BST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test case as it's Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test case as it's Run mode is set to No
+at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCaseName -->
-        <test-method signature="registerUser2(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser2@550dbc7a]" started-at="2024-07-18T00:16:21 BST" name="registerUser2" data-provider="data_Collection" finished-at="2024-07-18T00:16:27 BST" duration-ms="6020" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser2@1b11171f]" started-at="2024-07-18T17:41:06 BST" name="launchBrowser" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1721320866884" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerUser2(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser2@1b11171f]" started-at="2024-07-18T17:41:06 BST" name="registerUser2" data-provider="data_Collection" finished-at="2024-07-18T17:41:06 BST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -239,10 +311,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test case as it's Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test case as it's Run mode is set to No
+at com.companyname.projectname.module.testBase.TestBase.getTestCaseName(TestBase.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser2 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser2@550dbc7a]" started-at="2024-07-18T00:16:27 BST" name="CloseBrowser" finished-at="2024-07-18T00:16:31 BST" duration-ms="3426" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.companyname.projectname.module.testcases.RegisterUser2@1b11171f]" started-at="2024-07-18T17:41:06 BST" name="CloseBrowser" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1721320866899" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
